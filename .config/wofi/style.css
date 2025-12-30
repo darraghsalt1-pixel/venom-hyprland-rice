@@ -1,0 +1,44 @@
+window {
+    margin: 0px;
+    border: 2px solid #ff0000;
+    background-color: rgba(10, 0, 0, 0.9);
+    border-radius: 15px;
+    font-family: "Creepster"; /* Your scary font */
+    font-size: 20px;
+}
+
+#input {
+    margin: 5px;
+    border: none;
+    color: #ff0000;
+    background-color: rgba(40, 0, 0, 0.5);
+}
+
+#inner-box {
+    margin: 5px;
+    border: none;
+    background-color: transparent;
+}
+
+#outer-box {
+    margin: 5px;
+    border: none;
+    background-color: transparent;
+}
+
+#text {
+    margin: 5px;
+    border: none;
+    color: #8b0000;
+}
+
+#entry:selected {
+    background-color: rgba(255, 0, 0, 0.3);
+    border-radius: 10px;
+    outline: none;
+}
+
+#text:selected {
+    color: #ff0000;
+    text-shadow: 0 0 10px #ff0000;
+}
